@@ -1,0 +1,23 @@
+ php artisan make:migration evento --create=eventos
+ 
+ php artisan make:migration asignacion --create=asignaciones
+ 
+ #crea los archivos en app/database/migrations : estos archivos contienen la definicion de las tablas y sus campos
+ 
+ #ejecucion de las migraciones
+ php artisan migrate
+ 
+ #creacion de un seeder : en este archivo se ponen los registros semilla (o de pruebas) para una tabla
+ php artisan make:seeder EventoSeeder
+ 
+ #para correr el seeder se ponen los seeder que se van a ejecutar en el archivo DatabaseSeeder.php (ej: $this->call(EventoSeeder::class);)
+ #ejecuta los seed
+ php artisan db:seed
+ 
+ #crear el modelo
+ php artisan make:model Evento
+
+ #crear el controlador
+ php artisan make:controller EventoController
+ 
+ 
