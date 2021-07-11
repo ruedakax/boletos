@@ -1,7 +1,7 @@
 
-## asignacion de boletos en laravel
+## asignación de boletas en laravel
 
-### #WEB
+### WEB
 -aplicación que permite la creacion de compradores y eventos. Permite hacer una asignación de boletas de un comprador a un evento.
 
 ### API
